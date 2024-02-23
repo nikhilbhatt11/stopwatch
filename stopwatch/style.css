@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: black;
+}
+
+.container {
+  border: 3px dotted white;
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.timer {
+  font-size: 3rem;
+  color: white;
+}
+
+.btns button {
+  border: none;
+  outline: none;
+}
+
+.btns button {
+  padding: 0.7rem 1.5rem 0.7rem 1.5rem;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#startbtn {
+  background-color: green;
+}
+
+#stopbtn {
+  background-color: red;
+}
+
+#resetbtn {
+  background-color: orange;
+}
